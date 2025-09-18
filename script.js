@@ -32,7 +32,15 @@ const frasesPorHumor = {
     "Cuide de si mesmo, mesmo nos dias comuns."
   ]
 }
- 
+
+const imagensPorHumor = {
+  feliz: "https://thumbs.dreamstime.com/b/emoticon-muito-feliz-22756611.jpg",
+  triste: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRciHS91w_VmHofEWMC6d9_RmEGYtrT6JZIRQ&s",
+  ansioso: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAiYHY-kuQwri2_awnDa3LYazJRRTZUSxO4g&s",
+  motivado: "https://cdn-icons-png.flaticon.com/512/4833/4833969.png",
+  neutro: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSguyhaccpcy1juH9OUZ7bnybxj5e1TyqnPrw&s",
+};
+
 form.addEventListener("submit", function(event) {
   event.preventDefault();
   const humor = humorInput.value.toLowerCase().trim();
