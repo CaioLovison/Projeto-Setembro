@@ -3,7 +3,7 @@ body{
   padding: 40px 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to bottom right, #f0fbfc, #ffffff);
-  color: #000000;
+  color: #00bfff;
   text-align: center;
   min-height: 100vh;
   display: flex;
@@ -13,7 +13,7 @@ body{
 
 h1{
   font-size: 3em;
-  color: #000000;
+  color: #00bfff;
   margin-bottom: 10px;
 }
 
@@ -37,7 +37,7 @@ form{
 label{
   display: block;
   font-size: 1em;
-  color: #000000;
+  color: #00bfff;
   margin-bottom: 10px;
 }
 
@@ -52,7 +52,7 @@ input{
 }
 
 input:focus{
-  border-color: #000000;
+  border-color: #00bfff;
   outline: none;
 }
 
@@ -63,7 +63,7 @@ button{
   border: none;
   font-size: 1em;
   font-weight: bold;
-  background-color: #000000;
+  background-color: #00bfff;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
@@ -71,7 +71,7 @@ button{
 }
 
 button:hover{
-  background-color: #000000;
+  background-color: #00bfff;
   transform: translateY(-2px);
 }
 
