@@ -1,42 +1,85 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #e6f7f7;
-    text-align: center;
-    padding: 20px;
-  }
- 
-  h1 {
-    color: #006666;
-  }
- 
-  .mensagem-fixa {
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-  }
- 
-  input, button {
-    padding: 10px;
-    margin: 10px;
-    border-radius: 8px;
-    border: 1px solid #999;
-    font-size: 16px;
-  }
- 
-  button {
-    background-color: #009999;
-    color: white;
-    cursor: pointer;
-  }
- 
-  button:hover {
-    background-color: #007777;
-  }
- 
-  #imagem-humor img {
-    margin-top: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
-  }
- 
+body{
+  margin: 0;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #f0fbfc, #ffffff);
+  color: #000000;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  font-size: 3em;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.mensagem-fixa{
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+form{
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.06);
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+label{
+  display: block;
+  font-size: 1em;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+input{
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+input:focus{
+  border-color: #000000;
+  outline: none;
+}
+
+button{
+  padding: 12px 20px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover{
+  background-color: #000000;
+  transform: translateY(-2px);
+}
+
+#humor-registrado,
+#mensagem-motivacional{
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #444;
+  max-width: 500px;
+}
+
